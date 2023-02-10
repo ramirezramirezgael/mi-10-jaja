@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h3>trabajador</h3>
+    <div>
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name">
+    </div>
+    <div>
+        <label for="lastname">Apellidos</label>
+        <input type="text" name="lastname" id="lastname">
+        
+    </div>
+    <div>
+        <label for="tiempo">Horario</label>
+        <input type="text" name="tiempo" id="tiempo">
+        
+    </div>
+    <div>
+        <label for="arreglado">Reparacion Realizada</label>
+        <input type="text" name="arreglado" id="arreglado">
+        
+    </div>
+    <div>
+        <label for="habilidad">Experiencia laboral</label>
+        <input type="text" name="habilidad" id="habilidad">
+        
+    </div>
+    <div>
+        <label for="formacion">Estudios</label>
+        <input type="text" name="formacion" id="formacion">
+        
+    </div>
+   <button onclick="creartrabajador()">guardar</button>
+    <hr>
+
+    <h3>consulta</h3>
+    <div>
+        <label for="causa">motivo</label>
+        <input type="text" name="causa" id="causa">
+    </div>
+    <div>
+        <label for="hora_ingreso">hora entrada</label>
+        <input type="text" name="hora_ingreso" id="hora_ingreso">
+    </div>
+    <div>
+        <label for="tipo">Modelo del equipo</label>
+        <input type="text" name="tipo" id="tipo">
+        
+    </div>
+    <div>
+        <label for="date">Fecha</label>
+        <input type="text" name="date" id="date">
+        
+    </div>
+    <div>
+        <label for="anotacion">Comentarios</label>
+        <input type="text" name="anotacion" id="anotacion">
+        
+    </div>
+    <button onclick="GeneralConsulta()">Generar Consulta</button>
+    <h3>cliente</h3>
+    <div>
+        <label for="apodo">Nombre</label>
+        <input type="text" name="apodo" id="apodo">
+    </div>
+    <div>
+        <label for="lastname">Apellidos</label>
+        <input type="text" name="lastname" id="lastname">
+    </div>
+    <div>
+        <label for="contacto">Numero Telefonico</label>
+        <input type="text" name="contacto" id="contacto">
+    </div>
+    <div>
+        <label for="cita">Numero de Nota</label>
+        <input type="text" name="cita" id="cita">
+    </div>
+    <div>
+        <label for="lapso">Tiempo de espera</label>
+        <input type="text" name="lapso" id="lapso">
+    </div>
+    <div>
+        <label for="emergencia">Contacto de emergencia</label>
+        <input type="text" name="emergencia" id="emergencia">
+    </div>
+    <button onclick="crearCliente()">crear</button>
+    <script src="persona.js"></script>
+    <script src="consulta.js"></script>
+    <script src="trabajador.js"></script>
+    <script src="cliente.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
